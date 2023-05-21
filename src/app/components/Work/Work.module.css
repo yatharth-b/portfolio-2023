@@ -56,7 +56,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  filter: blur(20px);
+  filter: blur(30px);
   mix-blend-mode: screen;
   transition: 0.2s;
   opacity: 0;
@@ -64,4 +64,39 @@
 
 .CardContainer:hover .CardContainerBG {
   opacity: 1;
+}
+
+.WorkButtons {
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-cabinet);
+  font-size: 24px;
+  column-gap: 30px;
+  padding-bottom: 5%;
+}
+
+.WorkButton {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #191919;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.purple {
+  border: #CC00FF 2px solid;
+}
+
+.purple:hover {
+  box-shadow: #CC00FF 0px 8px 36px;
+}
+
+.pink {
+  border: #FF006B 2px solid;
+}
+
+.pink:hover {
+  box-shadow: rgba(255, 0, 107, 1) 0px 8px 36px;
 }

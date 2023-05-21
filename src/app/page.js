@@ -4,6 +4,8 @@ import Hero from './components/Hero/Hero'
 import localFont from 'next/font/local';
 import About from './components/About/About';
 import Work from './components/Work/Work';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
  
 // Font files can be colocated inside of `pages`
 const myFont = localFont({ src: './fonts/CabinetGrotesk-Variable.ttf', variable: '--font-cabinet' });
@@ -15,6 +17,8 @@ export default function Home() {
       <Hero />
       <About />
       <Work />
+      <Contact />
+      <Footer />
     </div>
   )
 }

@@ -51,6 +51,14 @@ export default function Work() {
           })
         }
       </div>
+      <div className={styles.WorkButtons}>
+        <div className={`${styles.WorkButton} ${styles.purple}`}>
+          💻 Dev Work
+        </div>
+        <div className={`${styles.WorkButton} ${styles.pink}`}>
+        🖌️ Design Work
+        </div>
+      </div>
     </div>
   )
 }
