@@ -1,0 +1,7 @@
+.About {
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    color: #313131;
+    text-align: center;
+}

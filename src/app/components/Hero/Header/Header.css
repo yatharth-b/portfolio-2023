@@ -1,6 +1,6 @@
 .header {
   display: inline-flex;
-  font-family: 'Cabinet Grotesk';
+  font-family: var(--font-cabinet);
   color: #E9E8D1;
   font-weight: 700;
   font-size: 20px;
