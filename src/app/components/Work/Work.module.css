@@ -1,0 +1,67 @@
+.work {
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  padding-top: 2%;
+  background: #1C1C1C;
+}
+
+.WorkHeading {
+  font-family: var(--font-druk);
+  font-size: 64px;
+}
+
+.CardGrid {
+  font-family: var(--font-cabinet);
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.CardContainer {
+  width: 30%;
+  position: relative;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.CardGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 30px;
+}
+
+.CardBody {
+  font-size: 20px;
+}
+
+.CardImage {
+  width: 100%;
+  height: 100%;
+  padding: 3%;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  border-radius: 8px;
+  top: 0;
+  left: 0;
+}
+
+.CardContainerBG {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 8px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(20px);
+  mix-blend-mode: screen;
+  transition: 0.2s;
+  opacity: 0;
+}
+
+.CardContainer:hover .CardContainerBG {
+  opacity: 1;
+}
