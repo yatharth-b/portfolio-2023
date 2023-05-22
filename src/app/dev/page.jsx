@@ -150,7 +150,7 @@ export default function dev() {
     >
       <div className={styles.devhero}>
         <Header />
-        <h1>DEV EXPERIENCE</h1>
+        <h1 className={styles.devheading}>DEV EXPERIENCE</h1>
       </div>
       <div className={styles.projects}>
         {projects.map((project, index) => {
@@ -166,7 +166,7 @@ export default function dev() {
         })}
       </div>
       <div className={styles.Internships}>
-        <h1>INTERNSHIPS</h1>
+        <h1 className={styles.devheading}>INTERNSHIPS</h1>
         <div className={styles.internshipsContainer}>
           {internships.map((internship, index) => {
             return (

@@ -87,3 +87,23 @@
   padding-top: 5px;
   
 }
+
+@media screen and (max-width: 800px) {
+  .internship {
+    width: 100%;
+  }
+
+  .Internships {
+    padding-top: 100px;
+  }
+
+  .project {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .devheading {
+    font-size: 28px;
+  }
+}
