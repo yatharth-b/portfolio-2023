@@ -5,6 +5,7 @@ import Header from "../components/Hero/Header/Header";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 import '../globals.css'
+import { Metadata } from 'next';
 
 // Font files can be colocated inside of `pages`
 const myFont = localFont({
@@ -20,6 +21,11 @@ const myFont3 = Noto_Color_Emoji({
   subsets: ["emoji"],
   weight: "400",
 });
+
+export const metadata= {
+  title: "Yatharth",
+  description: "Yatharth's Portfolio (2023)",
+};
 
 export default function dev() {
   const projects = [
