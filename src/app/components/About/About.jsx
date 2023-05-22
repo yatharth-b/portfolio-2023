@@ -10,16 +10,20 @@ export default function About() {
         </div>
         <div className={styles.AboutImages}>
           <img src="/patd.png" className={styles.patd}></img>
-          <img src="/pig.png" className={styles.pig}></img>
+          <p className={styles.pig}>🐷</p>
           <img src='/chamber.webp' className={styles.chamber}></img>
         </div>
       </div>
       <div className={styles.AboutBottom}>
-        <p>Bee</p>
+        <p className={styles.bee}>🐝</p>
         <div className={styles.GTStack}>
           <div className={styles.currently}>✨Currently building at✨</div>
           <div className={styles.GT}>GEORGIA TECH</div>
         </div>
+
+        <img src='/bog.png' className={styles.BOG}></img>
+        <img src='/sx.png' className={styles.SX}></img>
+
       </div>
 
     </div>

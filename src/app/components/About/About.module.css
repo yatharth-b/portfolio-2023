@@ -6,7 +6,6 @@
   padding-left: 7.5%;
   padding-right: 7.5%;
   padding-top: 2%;
-  padding-bottom: 15%;
   overflow-y: hidden;
   overflow: hidden;
 
@@ -42,13 +41,15 @@
 
 .patd {
   position: absolute;
-  right: 0;
+  right: -7.5vw;
 }
 
 .pig {
   position: absolute;
-  top: 100%;
-  right: 500px;
+  top: 90%;
+  right: 200px;
+  font-family: var(--font-emoji);
+  font-size: 220px;
   transform: rotate(-30deg)
 }
 .chamber {
@@ -66,8 +67,10 @@
 .AboutBottom {
   display: flex;
   padding-top: 15%;
-  padding-bottom: 7.5%;
   justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-bottom: 15%;
 }
 
 .GT {
@@ -80,4 +83,239 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.bee {
+  font-family: var(--font-emoji);
+  font-size: 170px;
+  transform: rotate(30deg);
+  position: absolute;
+  left: 0;
+}
+
+.SX {
+  width: 350px;
+  position: absolute;
+  right: -3vw;
+  transform: rotate(20deg);
+}
+
+.BOG {
+  position: absolute;
+  bottom: 0;
+  transform: rotate(-30deg);
+  right: 200px;
+}
+
+.AboutGTStack {
+  position: relative;
+}
+
+
+@media screen and (max-width: 1300px) {
+  .chamber {
+    width: 250px;
+    right: -200px;
+  }
+
+  .pig {
+    right: 100px;
+    font-size: 170px;
+  }
+
+  .SX {
+    top: 250px;
+  }
+
+  .BOG {
+    right: 400px;
+    width: 150px;
+  }
+
+  .GT {
+    font-size: 64px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .SX {
+    width: 250px;
+    top: 175px;
+  }
+
+  .GT {
+    font-size: 56px;
+  }
+
+  .patd {
+    width: 200px;
+  }
+
+  .AboutBody {
+    font-size: 24px;
+  }
+
+  .chamber {
+    right: -250px
+  }
+
+  .AboutHeading {
+    font-size: 54px;
+  }
+
+  .bee {
+    font-size: 120px;
+    left: -50px;
+  }
+
+  .BOG {
+    width: 120px;
+  }
+
+  .About {
+    padding-top: 5%;
+  }
+
+  .AboutBottom {
+    padding-bottom: 20%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .bee {
+    top: 0;
+  }
+
+  .patd {
+    width: 150px;
+  }
+
+  .GT {
+    font-size: 48px;
+  }
+
+  .BOG {
+    width: 80px;
+  }
+
+  .SX {
+    width: 150px;
+  }
+
+  .currently {
+    font-size: 32px;  
+  }
+
+  .pig {
+    font-size: 120px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .chamber {
+    width: 150px;
+    right: -200px;
+  }
+
+  .AboutHeading {
+    font-size: 36px;
+  }
+
+  .AboutBody {
+    font-size: 20px;
+  }
+
+  .pig {
+    top: 80%;
+  }
+
+  .About {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .currently {
+    font-size: 28px;
+  }
+
+  .GT {
+    font-size: 36px;
+  }
+
+  .SX {
+    top: 120px;
+  }
+
+  .pig {
+    font-size: 100px;
+  }
+
+  .bee {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .patd {
+    display: none;
+  }
+
+  .BOG {
+    right: 300px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .currently {
+    font-size: 24px;
+  }
+  .GT {
+    font-size: 26px;
+  }
+
+  .SX {
+    top: 90px;
+    width: 100px;
+  }
+
+  .patd {
+    display: none;
+  }
+
+  .bee {
+    font-size: 60px;
+    left: 0;
+  }
+
+  .AboutBody {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .AboutHeading {
+    font-size: 28px;
+  }
+
+  .chamber {
+    width: 100px;
+    right: -200px;
+  }
+
+  .pig {
+    font-size: 70px;
+    top: 90%;
+  }
+
+  .BOG {
+    right: 200px;
+  }
+
+  .currently {
+    font-size: 20px;
+  }
+  
 }

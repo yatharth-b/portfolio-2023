@@ -11,4 +11,27 @@
 
 .hero-text {
   width: 50%;
+  min-width: 250px;
+}
+
+.logos {
+  height: 30px;
+  display: flex;
+  column-gap: 30px;
+  justify-content: center;
+}
+
+.logo {
+  height: 100%;
+  width: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-text {
+    width: 80%;
+  }
+
+  .logos {
+    height: 20px;
+  }
 }
