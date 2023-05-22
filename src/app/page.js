@@ -7,6 +7,7 @@ import Work from './components/Work/Work';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import { Noto_Color_Emoji } from 'next/font/google';
+import './globals.css'
  
 // Font files can be colocated inside of `pages`
 const myFont = localFont({ src: './fonts/CabinetGrotesk-Variable.ttf', variable: '--font-cabinet' });

@@ -109,3 +109,7 @@ a {
 h1 {
   font-family: var(--font-druk);
 }
+
+.emoji {
+  font-family: var(--font-emoji);
+}

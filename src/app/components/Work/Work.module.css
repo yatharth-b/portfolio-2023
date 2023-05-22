@@ -70,9 +70,10 @@
   display: flex;
   justify-content: center;
   font-family: var(--font-cabinet);
-  font-size: 24px;
+  font-size: 20px;
   column-gap: 30px;
   padding-bottom: 5%;
+  padding-top: 4%;
 }
 
 .WorkButton {
@@ -91,6 +92,14 @@
 
 .purple:hover {
   box-shadow: #CC00FF 0px 8px 36px;
+}
+
+.beige {
+  border: #E9E8D1 2px solid;
+}
+
+.beige:hover {
+  box-shadow: #E9E8D1 0px 8px 36px;
 }
 
 .pink {

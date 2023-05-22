@@ -4,6 +4,7 @@ import { Noto_Color_Emoji } from "next/font/google";
 import Header from "../components/Hero/Header/Header";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
+import '../globals.css'
 
 // Font files can be colocated inside of `pages`
 const myFont = localFont({

@@ -52,12 +52,15 @@ export default function Work() {
         }
       </div>
       <div className={styles.WorkButtons}>
-        <div className={`${styles.WorkButton} ${styles.purple}`}>
-          💻 Dev Work
-        </div>
-        <div className={`${styles.WorkButton} ${styles.pink}`}>
-        🖌️ Design Work
-        </div>
+        <a className={`${styles.WorkButton} ${styles.beige}`} href='/resume.pdf'>
+        <span className='emoji'>📝</span> Resume
+        </a>
+        <a className={`${styles.WorkButton} ${styles.purple}`} href='/dev'>
+          <span className="emoji">💻</span> Dev Work
+        </a>
+        <a className={`${styles.WorkButton} ${styles.pink}`} href='/design'>
+        <span className="emoji">🖌️</span> Design Work
+        </a>
       </div>
     </div>
   )

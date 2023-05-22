@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div className={styles.contact}>
       <div className={styles.ContactHeading}>CONTACT</div>
-      <div className={styles.ContactBody}><u>hello@yatharth.dev</u></div>
+      <a className={styles.ContactBody} href='mailto:yatharth@gatech.edu'><u>yatharth@gatech.edu</u></a>
       <div className={styles.logos}>
         <a href="https://github.com/yatharth-b">
           <img src="/github-mark-dark.svg" className={styles.logo}></img>
