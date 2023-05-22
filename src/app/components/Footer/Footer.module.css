@@ -7,3 +7,10 @@
   background: #1C1C1C;
   color: #E9E8D1;
 }
+
+@media screen and (max-width: 800px) {
+  .footer {
+    font-size: 14px;
+    padding: 3%;
+  }
+}

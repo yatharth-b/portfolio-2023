@@ -30,3 +30,34 @@
   height: 100%;
   width: auto;
 }
+
+
+@media screen and (max-width: 1000px) {
+  .contact {
+    padding-top: 6%;
+    padding-bottom: 6%;
+  }
+
+  .ContactHeading {
+    font-size: 54px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .ContactHeading {
+    font-size: 36px;
+  }
+
+  .ContactBody {
+    font-size: 20px;
+  }
+
+  .logos {
+    height: 20px;}
+}
+
+@media screen and (max-width: 500px) {
+  .ContactHeading {
+    font-size: 28px;
+  }
+}

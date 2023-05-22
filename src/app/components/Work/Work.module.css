@@ -100,3 +100,68 @@
 .pink:hover {
   box-shadow: rgba(255, 0, 107, 1) 0px 8px 36px;
 }
+
+@media screen and (max-width: 1000px) {
+  .CardImage {
+    padding: 6%;
+  }
+
+  .WorkHeading {
+    font-size: 54px;
+  }
+
+  .work {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .WorkButtons {
+    font-size: 16px;
+    padding-top: 5%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .CardContainer {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .CardContainer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .WorkHeading {
+    font-size: 36px;
+    padding-bottom: 5%;
+  }
+
+  .work {
+    padding-top: 10%;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .CardBody {
+    font-size: 16px;
+  }
+
+  .WorkHeading {
+    font-size: 28px;
+  }
+
+  .WorkButtons {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 12px;
+  }
+}
+
