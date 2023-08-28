@@ -7,7 +7,7 @@ export default function Header() {
       <a className='profilepiclink' href='/'>
         <img src='/home.jpg' className='profilepic'></img>
       </a>
-      <a className="page" href='/design'>Design</a>
+      <a className="page" href='https://www.behance.net/yathartbhargav'>Design</a>
       <a className="page" href='/dev'>Dev</a>
       <a className="page" href='/blog'>Blog</a>
     </div>

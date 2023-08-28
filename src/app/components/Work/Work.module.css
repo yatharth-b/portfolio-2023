@@ -8,6 +8,7 @@
 .WorkHeading {
   font-family: var(--font-druk);
   font-size: 64px;
+  color: #E9E8D1;
 }
 
 .CardGrid {
@@ -23,6 +24,10 @@
   border-radius: 8px;
 }
 
+.CardHeading {
+  color: #E9E8D1;
+}
+
 .CardGrid {
   display: flex;
   flex-wrap: wrap;
@@ -32,6 +37,7 @@
 
 .CardBody {
   font-size: 20px;
+  color: #E9E8D1;
 }
 
 .CardImage {
@@ -84,6 +90,7 @@
   background: #191919;
   border-radius: 8px;
   transition: 0.2s;
+  color: #E9E8D1;
 }
 
 .purple {

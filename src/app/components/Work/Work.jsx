@@ -43,7 +43,7 @@ export default function Work() {
                 <div className={styles.CardImage} style={{
                   backgroundImage: `url('${card.image}')`
                 }}>
-                  <h2>{card.title}</h2>
+                  <h2 className={styles.CardHeading}>{card.title}</h2>
                   <p className={styles.CardBody}>{card.body}</p>
                 </div>
               </div>
