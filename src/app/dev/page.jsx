@@ -142,7 +142,7 @@ export default function dev() {
       ],
     },
     {
-      title: "ClearTrail Technologies (Summer 2021)",
+      title: "ClearTrail Technologies (Summer 2020)",
       position: "Software Engineering Intern",
       body: [
         "- Researched the effectiveness of pose estimation in sentiment analysis for crime detection in videos.",
