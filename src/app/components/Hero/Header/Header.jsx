@@ -9,7 +9,7 @@ export default function Header() {
       </a>
       <a className="page" href='https://www.behance.net/yathartbhargav'>Design</a>
       <a className="page" href='/dev'>Dev</a>
-      <a className="page" href='/blog'>Blog</a>
+      <a className="page" href='https://blog.yatharth.dev/'>Blog</a>
     </div>
   )
 }
